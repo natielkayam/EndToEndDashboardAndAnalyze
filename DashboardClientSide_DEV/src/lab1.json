@@ -1,0 +1,1420 @@
+{
+  "LAB_UIR": {
+    "CCM": {
+      "Host": "SRRAALABUIRHQ.rwn.com",
+      "InstallScript": "LAB_UIR\\CCM\\Install-CCM.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallCcmRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUIRHQ.testsettings",
+      "Tests": []
+    },
+    "Store1": {
+      "Host": "SRRAALABUIRST1.rwn.com",
+      "InstallScript": "LAB_UIR\\STORE1\\Install-Store1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallSt1Regression.orderedtest"
+        },
+        {
+          "Filename": "WIC\\Pos1Wic.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUIRST1.testsettings",
+      "Tests": []
+    },
+    "POS2": {
+      "Host": "DTRAALABUIRPOS2.rwn.com",
+      "InstallScript": "LAB_UIR\\POS2\\Install-POS2.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos2Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUIRPOS2.testsettings",
+      "Tests": []
+    },
+    "POS1": {
+      "Host": "DTRAALABUIRPOS1.rwn.com",
+      "InstallScript": "LAB_UIR\\POS1\\Install-POS1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos1Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUIRPOS1.testsettings",
+      "Tests": [
+        {
+          "Category": "",
+          "Filename": "Ncr.UIAutomation.R1.dll"
+        },
+        {
+          "Category": "",
+          "Filename": "Ncr.UIAutomation.GovernmentProgram.dll"
+        }
+      ]
+    },
+    "Store2": {
+      "Host": "SRRAALABUIRST2.rwn.com",
+      "InstallScript": "LAB_UIR\\STORE2\\Install-Store2.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallSt2Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUIRST2.testsettings",
+      "Tests": []
+    },
+    "POS3": {
+      "Host": "DTRAALABUIRPOS3.rwn.com",
+      "InstallScript": "LAB_UIR\\POS3\\Install-POS3.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos3Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUIRPOS3.testsettings",
+      "Tests": []
+    }
+  },
+  "LAB_ATQ": {
+    "CCM": {
+      "Host": "SRRAALABATQCCM.rwn.com",
+      "InstallScript": "LAB_ATQ\\CCM\\Install-CCM.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallCcmRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABATQCCM.testsettings",
+      "Tests": []
+    },
+    "Store": {
+      "Host": "SRRAALABATQST1.rwn.com",
+      "InstallScript": "LAB_ATQ\\STORE\\Install-Store.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallSt1Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABATQST1.testsettings",
+      "Tests": []
+    },
+    "POS1": {
+      "Host": "DTRAALABATQPOS1.rwn.com",
+      "InstallScript": "LAB_ATQ\\POS1\\Install-POS1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos1Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABATQPOS1.testsettings",
+      "Tests": [
+        {
+          "Filename": "Ncr.UIAutomation.Tax.dll, Category: !TestDefaultConfiguration"
+        }
+      ]
+    }
+  },
+  "LAB_ATA": {
+    "CCM": {
+      "Host": "SRRAALABATAHQ.rwn.com",
+      "InstallScript": "LAB_ATA\\CCM\\Install-CCM.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallCcmRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABATAHQ.testsettings",
+      "Tests": []
+    },
+    "Store": {
+      "Host": "SRRAALABATAST1.rwn.com",
+      "InstallScript": "LAB_ATA\\STORE\\Install-Store.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallSt1Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABATAST1.testsettings",
+      "Tests": []
+    },
+    "POS1": {
+      "Host": "DTRAALABATAPOS1.rwn.com",
+      "InstallScript": "LAB_ATA\\POS1\\Install-POS1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos1Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABATAPOS1.testsettings",
+      "Tests": [
+        {
+          "Category": "!TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.Office1.dll"
+        }
+      ]
+    }
+  },
+  "LAB_ATR": {
+    "CCM": {
+      "Host": "SRRAALABATRCCM.rwn.com",
+      "InstallScript": "LAB_ATR\\CCM\\Install-CCM.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Default\\InstallCcmDefault.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABATRCCM.testsettings",
+      "Tests": []
+    },
+    "Store": {
+      "Host": "SRRAALABATRST1.rwn.com",
+      "InstallScript": "LAB_ATR\\STORE\\Install-Store.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Default\\InstallSt1Default.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABATRST1.testsettings",
+      "Tests": []
+    },
+    "POS1": {
+      "Host": "DTRAALABATRPOS1.rwn.com",
+      "InstallScript": "LAB_ATR\\POS1\\Install-POS1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Default\\InstallPos1Default.orderedtest"
+        },
+        {
+          "Filename": "WIC\\Pos1WicDefaultConfiguration.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABATRPOS1.testsettings",
+      "Tests": [
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.Office1.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.Organization.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.PatronID.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.Product.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.QSR.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.R1.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.Receipt.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.Return.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.Return1.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.Sanity.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.Selling.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.Selling1.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.Tax.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.TenderExchange.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.FLSCO.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.Pharmacy.dll"
+        }
+      ]
+    }
+  },
+  "LAB_UIC": {
+    "CCM": {
+      "Host": "SRRAALABUICCCM.rwn.com",
+      "InstallScript": "LAB_UIC\\CCM\\Install-CCM.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallCcmRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUICCCM.testsettings",
+      "Tests": []
+    },
+    "Store": {
+      "Host": "SRRAALABUICST1.rwn.com",
+      "InstallScript": "LAB_UIC\\STORE\\Install-Store.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallSt1Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUICST1.testsettings",
+      "Tests": []
+    },
+    "POS1": {
+      "Host": "DTRAALABUICPOS1.rwn.com",
+      "InstallScript": "LAB_UIC\\POS1\\Install-POS1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos1Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUICPOS1.testsettings",
+      "Tests": [
+        {
+          "Filename": "Ncr.UIAutomation.Payment.dll, Category: !TestDefaultConfiguration"
+        }
+      ]
+    }
+  },
+  "LAB_UII": {
+    "POS2": {
+      "Host": "DTRAALABUIIPOS2.rwn.com",
+      "InstallScript": "LAB_UII\\POS2\\Install-POS2.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos2Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUIIPOS2.testsettings",
+      "Tests": []
+    },
+    "CCM": {
+      "Host": "SRRAALABUIIHQ.rwn.com",
+      "InstallScript": "LAB_UII\\CCM\\Install-CCM.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallCcmRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUIIHQ.testsettings",
+      "Tests": []
+    },
+    "Store": {
+      "Host": "SRRAALABUIIST1.rwn.com",
+      "InstallScript": "LAB_UII\\STORE\\Install-Store.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallSt1Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUIIST1.testsettings",
+      "Tests": []
+    },
+    "POS1": {
+      "Host": "DTRAALABUIIPOS1.rwn.com",
+      "InstallScript": "LAB_UII\\POS1\\Install-POS1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos1RegressionMultiPos.orderedtest"
+        },
+        {
+          "Filename": "WIC\\Pos1Wic.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUIIPOS1.testsettings",
+      "Tests": [
+        {
+          "Category": "",
+          "Filename": "Ncr.UIAutomation.individualwrapper.dll"
+        },
+        {
+          "Category": "",
+          "Filename": "Ncr.UIAutomation.datetimemanipulator.dll"
+        },
+        {
+          "Category": "",
+          "Filename": "Ncr.UIAutomation.office.dll"
+        }
+      ]
+    }
+  },
+  "LAB_UIS": {
+    "CCM": {
+      "Host": "SRRAALABUISHQ.rwn.com",
+      "InstallScript": "LAB_UIS\\CCM\\Install-CCM.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallCcmRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUISHQ.testsettings",
+      "Tests": []
+    },
+    "Store": {
+      "Host": "SRRAALABUISST1.rwn.com",
+      "InstallScript": "LAB_UIS\\STORE\\Install-Store.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallSt1Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUISST1.testsettings",
+      "Tests": []
+    },
+    "POS1": {
+      "Host": "DTRAALABUISPOS1.rwn.com",
+      "InstallScript": "LAB_UIS\\POS1\\Install-POS1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos1Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUISPOS1.testsettings",
+      "Tests": [
+        {
+          "Filename": "Ncr.UIAutomation.selling1.dll, Category: !TestDefaultConfiguration"
+        }
+      ]
+    }
+  },
+  "LAB_UIO": {
+    "POS2": {
+      "Host": "DTRAALABUIOPOS2.rwn.com",
+      "InstallScript": "LAB_UIO\\POS2\\Install-POS2.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos2Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUIOPOS2.testsettings",
+      "Tests": []
+    },
+    "CCM": {
+      "Host": "SRRAALABUIOHQ.rwn.com",
+      "InstallScript": "LAB_UIO\\CCM\\Install-CCM.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallCcmFuelRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUIOHQ.testsettings",
+      "Tests": []
+    },
+    "Store": {
+      "Host": "SRRAALABUIOST1.rwn.com",
+      "InstallScript": "LAB_UIO\\STORE\\Install-Store.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallSt1FuelRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUIOST1.testsettings",
+      "Tests": []
+    },
+    "POS1": {
+      "Host": "DTRAALABUIOPOS1.rwn.com",
+      "InstallScript": "LAB_UIO\\POS1\\Install-POS1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos1FuelRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUIOPOS1.testsettings",
+      "Tests": [
+        {
+          "Filename": "Ncr.UIAutomation.fuelepsilon1.dll, Category: !TestDefaultConfiguration"
+        },
+        {
+          "Filename": "Ncr.UIAutomation.fuelepsilon.dll, Category: !TestDefaultConfiguration"
+        },
+        {
+          "Filename": "Ncr.UIAutomation.fuel.dll, Category: !TestDefaultConfiguration"
+        }
+      ]
+    }
+  },
+  "LAB_UIG": {
+    "CCM": {
+      "Host": "SRRAALABUIGHQ.rwn.com",
+      "InstallScript": "LAB_UIG\\CCM\\Install-CCM.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallCcmRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUIGHQ.testsettings",
+      "Tests": []
+    },
+    "Store": {
+      "Host": "SRRAALABUIGST1.rwn.com",
+      "InstallScript": "LAB_UIG\\STORE\\Install-Store.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallSt1Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUIGST1.testsettings",
+      "Tests": []
+    },
+    "POS1": {
+      "Host": "DTRAALABUIGPOS1.rwn.com",
+      "InstallScript": "LAB_UIG\\POS1\\Install-POS1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos1Regression.orderedtest"
+        },
+        {
+          "Filename": "WIC\\Pos1Wic.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUIGPOS1.testsettings",
+      "Tests": [
+        {
+          "Filename": "Ncr.UIAutomation.selling.dll, Category: !TestDefaultConfiguration"
+        }
+      ]
+    }
+  },
+  "LAB_UIU": {
+    "CCM": {
+      "Host": "SRRAALABUIUHQ.rwn.com",
+      "InstallScript": "LAB_UIU\\CCM\\Install-CCM.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallCcmRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUIUHQ.testsettings",
+      "Tests": []
+    },
+    "Store": {
+      "Host": "SRRAALABUIUST1.rwn.com",
+      "InstallScript": "LAB_UIU\\STORE\\Install-Store.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallSt1Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUIUST1.testsettings",
+      "Tests": []
+    },
+    "POS1": {
+      "Host": "DTRAALABUIUPOS1.rwn.com",
+      "InstallScript": "LAB_UIU\\POS1\\Install-POS1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos1Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUIUPOS1.testsettings",
+      "Tests": [
+        {
+          "Filename": "Ncr.UIAutomation.return1.dll, Category: !TestDefaultConfiguration"
+        }
+      ]
+    }
+  },
+  "LAB_ATL": {
+    "CCM": {
+      "Host": "SRRAALABATLCCM.rwn.com",
+      "InstallScript": "LAB_ATL\\CCM\\Install-CCM.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallCcmRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABATLCCM.testsettings",
+      "Tests": []
+    },
+    "Store": {
+      "Host": "SRRAALABATLST1.rwn.com",
+      "InstallScript": "LAB_ATL\\STORE\\Install-Store.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallSt1Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABATLST1.testsettings",
+      "Tests": []
+    },
+    "POS1": {
+      "Host": "DTRAALABATLPOS1.rwn.com",
+      "InstallScript": "LAB_ATL\\POS1\\Install-POS1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos1Regression.orderedtest"
+        },
+        {
+          "Filename": "WIC\\Pos1Wic.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABATLPOS1.testsettings",
+      "Tests": [
+        {
+          "Filename": "Ncr.UIAutomation.StoredValue.dll, Category: !TestDefaultConfiguration"
+        },
+        {
+          "Filename": "Ncr.UIAutomation.BRM.dll, Category: !TestDefaultConfiguration"
+        }
+      ]
+    }
+  },
+  "LAB_UIV": {
+    "CCM": {
+      "Host": "SRRAALABUIVHQ.rwn.com",
+      "InstallScript": "LAB_UIV\\CCM\\Install-CCM.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallCcmRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUIVHQ.testsettings",
+      "Tests": []
+    },
+    "Store1": {
+      "Host": "SRRAALABUIVST1.rwn.com",
+      "InstallScript": "LAB_UIV\\STORE1\\Install-Store1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallSt1Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUIVST1.testsettings",
+      "Tests": []
+    },
+    "POS2": {
+      "Host": "DTRAALABUIVPOS2.rwn.com",
+      "InstallScript": "LAB_UIV\\POS2\\Install-POS2.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos2Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUIVPOS2.testsettings",
+      "Tests": []
+    },
+    "POS1": {
+      "Host": "DTRAALABUIVPOS1.rwn.com",
+      "InstallScript": "LAB_UIV\\POS1\\Install-POS1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos1RegressionMultiPos.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUIVPOS1.testsettings",
+      "Tests": [
+        {
+          "Category": "",
+          "Filename": "Ncr.UIAutomation.twostores.dll"
+        },
+        {
+          "Category": "",
+          "Filename": "Ncr.UIAutomation.draweraccountability.dll"
+        }
+      ]
+    },
+    "Store2": {
+      "Host": "SRRAALABUIVST2.rwn.com",
+      "InstallScript": "LAB_UIV\\STORE2\\Install-Store2.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallSt2Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUIVST2.testsettings",
+      "Tests": []
+    },
+    "POS3": {
+      "Host": "DTRAALABUIVPOS3.rwn.com",
+      "InstallScript": "LAB_UIV\\POS3\\Install-POS3.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos3Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUIVPOS3.testsettings",
+      "Tests": []
+    }
+  },
+  "LAB_ATH": {
+    "CCM": {
+      "Host": "SRRAALABATHCCM.rwn.com",
+      "InstallScript": "LAB_ATH\\CCM\\Install-CCM.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallCcmFuelRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABATHCCM.testsettings",
+      "Tests": []
+    },
+    "Store": {
+      "Host": "SRRAALABATHST1.rwn.com",
+      "InstallScript": "LAB_ATH\\STORE\\Install-Store.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallSt1FuelRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABATHST1.testsettings",
+      "Tests": []
+    },
+    "POS1": {
+      "Host": "DTRAALABATHPOS1.rwn.com",
+      "InstallScript": "LAB_ATH\\POS1\\Install-POS1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos1FuelRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABATHPOS1.testsettings",
+      "Tests": [
+        {
+          "Filename": "Ncr.UIAutomation.fueldraweraccountability.dll, Category: !TestDefaultConfiguration"
+        },
+        {
+          "Filename": "Ncr.UIAutomation.manualfuel.dll, Category: !TestDefaultConfiguration"
+        },
+        {
+          "Filename": "Ncr.UIAutomation.fuel3.dll, Category: !TestDefaultConfiguration"
+        }
+      ]
+    }
+  },
+  "LAB_ATB": {
+    "CCM": {
+      "Host": "SRRAALABATBHQ.rwn.com",
+      "InstallScript": "LAB_ATB\\CCM\\Install-CCM.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallCcmFuelRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABATBHQ.testsettings",
+      "Tests": []
+    },
+    "Store": {
+      "Host": "SRRAALABATBST1.rwn.com",
+      "InstallScript": "LAB_ATB\\STORE\\Install-Store.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallSt1FuelRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABATBST1.testsettings",
+      "Tests": []
+    },
+    "POS1": {
+      "Host": "DTRAALABATBPOS1.rwn.com",
+      "InstallScript": "LAB_ATB\\POS1\\Install-POS1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos1FuelRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABATBPOS1.testsettings",
+      "Tests": [
+        {
+          "Filename": "Ncr.UIAutomation.fuel2.dll, Category: !TestDefaultConfiguration"
+        },
+        {
+          "Filename": "Ncr.UIAutomation.fuelpromotions.dll, Category: !TestDefaultConfiguration"
+        }
+      ]
+    }
+  },
+  "LAB_UIK": {
+    "CCM": {
+      "Host": "SRRAALABUIKHQ.rwn.com",
+      "InstallScript": "LAB_UIK\\CCM\\Install-CCM.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallCcmRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUIKHQ.testsettings",
+      "Tests": []
+    },
+    "Store": {
+      "Host": "SRRAALABUIKST1.rwn.com",
+      "InstallScript": "LAB_UIK\\STORE\\Install-Store.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallSt1Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUIKST1.testsettings",
+      "Tests": []
+    },
+    "POS1": {
+      "Host": "DTRAALABUIKPOS1.rwn.com",
+      "InstallScript": "LAB_UIK\\POS1\\Install-POS1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos1RegressionMultiPos.orderedtest"
+        },
+        {
+          "Filename": "Common\\IgnoreEndOfDay.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUIKPOS1.testsettings",
+      "Tests": [
+        {
+          "Filename": "Ncr.UIAutomation.receipt.dll, Category: !TestDefaultConfiguration"
+        },
+        {
+          "Filename": "Ncr.UIAutomation.datapattern.dll, Category: !TestDefaultConfiguration"
+        },
+        {
+          "Filename": "Ncr.UIAutomation.return.dll, Category: !TestDefaultConfiguration"
+        },
+        {
+          "Filename": "Ncr.UIAutomation.patronid.dll, Category: !TestDefaultConfiguration"
+        }
+      ]
+    }
+  },
+  "LAB_ATD": {
+    "CCM": {
+      "Host": "SRRAALABATDHQ.rwn.com",
+      "InstallScript": "LAB_ATD\\CCM\\Install-CCM.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Default\\InstallCcmDefault.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABATDHQ.testsettings",
+      "Tests": []
+    },
+    "Store": {
+      "Host": "SRRAALABATDST1.rwn.com",
+      "InstallScript": "LAB_ATD\\STORE\\Install-Store.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Default\\InstallSt1Default.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABATDST1.testsettings",
+      "Tests": []
+    },
+    "POS1": {
+      "Host": "DTRAALABATDPOS1.rwn.com",
+      "InstallScript": "LAB_ATD\\POS1\\Install-POS1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Default\\InstallPos1Default.orderedtest"
+        },
+        {
+          "Filename": "WIC\\Pos1WicDefaultConfiguration.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABATDPOS1.testsettings",
+      "Tests": [
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.TenderItemRestriction.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.Payment.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.AgeRestriction.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.BRM.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.CashOffice.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.CustomerScale.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.DataPattern.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.DateTimeManipulator.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.EndOfDay.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.EPS.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.FiPayment.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.Fuel1.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.GovernmentProgram.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.IDM.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.Localization.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.Menus.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.Office.dll"
+        },
+        {
+          "Category": "TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.Selling2.dll"
+        }
+      ]
+    }
+  },
+  "LAB_UIF": {
+    "CCM": {
+      "Host": "SRRAALABUIFHQ.rwn.com",
+      "InstallScript": "LAB_UIF\\CCM\\Install-CCM.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallCcmRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUIFHQ.testsettings",
+      "Tests": []
+    },
+    "Store": {
+      "Host": "SRRAALABUIFST1.rwn.com",
+      "InstallScript": "LAB_UIF\\STORE\\Install-Store.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallSt1Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUIFST1.testsettings",
+      "Tests": []
+    },
+    "POS1": {
+      "Host": "DTRAALABUIFPOS1.rwn.com",
+      "InstallScript": "LAB_UIF\\POS1\\Install-POS1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos1Regression.orderedtest"
+        },
+        {
+          "Filename": "Common\\InstallAndConfigureFiPay.orderedtest"
+        },
+        {
+          "Filename": "WIC\\Pos1Wic.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUIFPOS1.testsettings",
+      "Tests": [
+        {
+          "Category": "!TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.FiPayment.dll"
+        },
+        {
+          "Category": "!TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.TenderItemRestriction.dll"
+        },
+        {
+          "Category": "!TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.TenderExchange.dll"
+        },
+        {
+          "Category": "!TestDefaultConfiguration",
+          "Filename": "Ncr.UIAutomation.FLSCO.dll"
+        }
+      ]
+    }
+  },
+  "LAB_UIJ": {
+    "POS2": {
+      "Host": "DTRAALABUIJPOS2.rwn.com",
+      "InstallScript": "LAB_UIJ\\POS2\\Install-POS2.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Default\\InstallPos2DefaultFuel.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUIJPOS2.testsettings",
+      "Tests": []
+    },
+    "CCM": {
+      "Host": "SRRAALABUIJCCM.rwn.com",
+      "InstallScript": "LAB_UIJ\\CCM\\Install-CCM.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Default\\InstallCcmDefaultFuel.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUIJCCM.testsettings",
+      "Tests": []
+    },
+    "Store": {
+      "Host": "SRRAALABUIJST1.rwn.com",
+      "InstallScript": "LAB_UIJ\\STORE\\Install-Store.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Default\\InstallSt1DefaultFuel.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUIJST1.testsettings",
+      "Tests": []
+    },
+    "POS1": {
+      "Host": "DTRAALABUIJPOS1.rwn.com",
+      "InstallScript": "LAB_UIJ\\POS1\\Install-POS1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Default\\InstallPos1DefaultFuel.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUIJPOS1.testsettings",
+      "Tests": [
+        {
+          "Category": "",
+          "Filename": "Ncr.UIAutomation.FuelBaseConfig.dll"
+        }
+      ]
+    }
+  },
+  "LAB_UIN": {
+    "CCM": {
+      "Host": "SRRAALABUINHQ.rwn.com",
+      "InstallScript": "LAB_UIN\\CCM\\Install-CCM.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallCcmRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUINHQ.testsettings",
+      "Tests": []
+    },
+    "Store1": {
+      "Host": "SRRAALABUINST1.rwn.com",
+      "InstallScript": "LAB_UIN\\STORE1\\Install-Store1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallSt1Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUINST1.testsettings",
+      "Tests": []
+    },
+    "POS2": {
+      "Host": "DTRAALABUINPOS2.rwn.com",
+      "InstallScript": "LAB_UIN\\POS2\\Install-POS2.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos2Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUINPOS2.testsettings",
+      "Tests": []
+    },
+    "POS1": {
+      "Host": "DTRAALABUINPOS1.rwn.com",
+      "InstallScript": "LAB_UIN\\POS1\\Install-POS1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos1Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUINPOS1.testsettings",
+      "Tests": [
+        {
+          "Category": "",
+          "Filename": "Ncr.UIAutomation.toggletransaction.dll"
+        },
+        {
+          "Category": "",
+          "Filename": "Ncr.UIAutomation.cashieraccountability.dll"
+        }
+      ]
+    },
+    "Store2": {
+      "Host": "SRRAALABUINST2.rwn.com",
+      "InstallScript": "LAB_UIN\\STORE2\\Install-Store2.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallSt2Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUINST2.testsettings",
+      "Tests": []
+    },
+    "POS3": {
+      "Host": "DTRAALABUINPOS3.rwn.com",
+      "InstallScript": "LAB_UIN\\POS3\\Install-POS3.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos3Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUINPOS3.testsettings",
+      "Tests": []
+    }
+  },
+  "LAB_ATM": {
+    "CCM": {
+      "Host": "SRRAALABATMCCM.rwn.com",
+      "InstallScript": "LAB_ATM\\CCM\\Install-CCM.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallCcmFuelRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABATMCCM.testsettings",
+      "Tests": []
+    },
+    "Store": {
+      "Host": "SRRAALABATMST1.rwn.com",
+      "InstallScript": "LAB_ATM\\STORE\\Install-Store.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallSt1FuelRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABATMST1.testsettings",
+      "Tests": []
+    },
+    "POS1": {
+      "Host": "DTRAALABATMPOS1.rwn.com",
+      "InstallScript": "LAB_ATM\\POS1\\Install-POS1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos1FuelRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABATMPOS1.testsettings",
+      "Tests": [
+        {
+          "Filename": "Ncr.UIAutomation.fuelcashieraccountability.dll, Category: !TestDefaultConfiguration"
+        },
+        {
+          "Filename": "Ncr.UIAutomation.fuelepsilon1.dll, Category: !TestDefaultConfiguration"
+        },
+        {
+          "Filename": "Ncr.UIAutomation.fuelcouponue.dll, Category: !TestDefaultConfiguration"
+        },
+        {
+          "Filename": "Ncr.UIAutomation.fuelmtx.dll, Category: !TestDefaultConfiguration"
+        }
+      ]
+    }
+  },
+  "LAB_UIP": {
+    "CCM": {
+      "Host": "SRRAALABUIPCCM.rwn.com",
+      "InstallScript": "LAB_UIP\\CCM\\Install-CCM.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallCcmRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUIPCCM.testsettings",
+      "Tests": []
+    },
+    "Store": {
+      "Host": "SRRAALABUIPST1.rwn.com",
+      "InstallScript": "LAB_UIP\\STORE\\Install-Store.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallSt1Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUIPST1.testsettings",
+      "Tests": []
+    },
+    "POS1": {
+      "Host": "DTRAALABUIPPOS1.rwn.com",
+      "InstallScript": "LAB_UIP\\POS1\\Install-POS1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos1Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUIPPOS1.testsettings",
+      "Tests": [
+        {
+          "Filename": "Ncr.UIAutomation.Selling2.dll, Category: !TestDefaultConfiguration"
+        },
+        {
+          "Filename": "Ncr.UIAutomation.CatalogPricesPE.dll, Category: !TestDefaultConfiguration"
+        }
+      ]
+    }
+  },
+  "LAB_UIE": {
+    "CCM": {
+      "Host": "SRRAALABUIEHQ.rwn.com",
+      "InstallScript": "LAB_UIE\\CCM\\Install-CCM.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallCcmRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUIEHQ.testsettings",
+      "Tests": []
+    },
+    "Store": {
+      "Host": "SRRAALABUIEST1.rwn.com",
+      "InstallScript": "LAB_UIE\\STORE\\Install-Store.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallSt1Regression.orderedtest"
+        },
+        {
+          "Filename": "WIC\\Pos1Wic.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUIEST1.testsettings",
+      "Tests": []
+    },
+    "POS1": {
+      "Host": "DTRAALABUIEPOS1.rwn.com",
+      "InstallScript": "LAB_UIE\\POS1\\Install-POS1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos1Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUIEPOS1.testsettings",
+      "Tests": [
+        {
+          "Filename": "Ncr.UIAutomation.EPS.dll, Category: !TestDefaultConfiguration"
+        },
+        {
+          "Filename": "Ncr.UIAutomation.Organization.dll, Category: !TestDefaultConfiguration"
+        },
+        {
+          "Filename": "Ncr.UIAutomation.CustomerScale.dll, Category: !TestDefaultConfiguration"
+        },
+        {
+          "Filename": "Ncr.UIAutomation.AgeRestriction.dll, Category: !TestDefaultConfiguration"
+        },
+        {
+          "Filename": "Ncr.UIAutomation.PromotionsUE.dll, Category: !TestDefaultConfiguration"
+        },
+        {
+          "Filename": "Ncr.UIAutomation.FiPaymentUE.dll, Category: !TestDefaultConfiguration"
+        }
+      ]
+    }
+  },
+  "LAB_UID": {
+    "CCM": {
+      "Host": "SRRAALABUIDHQ.rwn.com",
+      "InstallScript": "LAB_UID\\CCM\\Install-CCM.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallCcmRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUIDHQ.testsettings",
+      "Tests": []
+    },
+    "Store": {
+      "Host": "SRRAALABUIDST1.rwn.com",
+      "InstallScript": "LAB_UID\\STORE\\Install-Store.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallSt1Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUIDST1.testsettings",
+      "Tests": []
+    },
+    "POS1": {
+      "Host": "DTRAALABUIDPOS1.rwn.com",
+      "InstallScript": "LAB_UID\\POS1\\Install-POS1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos1Regression.orderedtest"
+        },
+        {
+          "Filename": "Common\\InstallAndConfigureCoinDispenser.orderedtest"
+        },
+        {
+          "Filename": "WIC\\Pos1Wic.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUIDPOS1.testsettings",
+      "Tests": [
+        {
+          "Filename": "Ncr.UIAutomation.product.dll, Category: !TestDefaultConfiguration"
+        },
+        {
+          "Filename": "Ncr.UIAutomation.epsilon.dll, Category: !TestDefaultConfiguration"
+        },
+        {
+          "Filename": "Ncr.UIAutomation.pharmacy.dll, Category: !TestDefaultConfiguration"
+        },
+        {
+          "Filename": "Ncr.UIAutomation.idm.dll, Category: !TestDefaultConfiguration"
+        },
+        {
+          "Filename": "Ncr.UIAutomation.coindispenser.dll, Category: !TestDefaultConfiguration"
+        }
+      ]
+    }
+  },
+  "LAB_ATC": {
+    "CCM": {
+      "Host": "SRRAALABATCCCM.rwn.com",
+      "InstallScript": "LAB_ATC\\CCM\\Install-CCM.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallCcmRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABATCCCM.testsettings",
+      "Tests": []
+    },
+    "Store": {
+      "Host": "SRRAALABATCST1.rwn.com",
+      "InstallScript": "LAB_ATC\\STORE\\Install-Store.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallSt1Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABATCST1.testsettings",
+      "Tests": []
+    },
+    "POS1": {
+      "Host": "DTRAALABATCPOS1.rwn.com",
+      "InstallScript": "LAB_ATC\\POS1\\Install-POS1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos1Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABATCPOS1.testsettings",
+      "Tests": [
+        {
+          "Filename": "Ncr.UIAutomation.fuel1.dll, Category: !TestDefaultConfiguration"
+        }
+      ]
+    }
+  },
+  "LAB_UIL": {
+    "CCM": {
+      "Host": "SRRAALABUILHQ.rwn.com",
+      "InstallScript": "LAB_UIL\\CCM\\Install-CCM.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallCcmRegression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUILHQ.testsettings",
+      "Tests": []
+    },
+    "Store1": {
+      "Host": "SRRAALABUILST1.rwn.com",
+      "InstallScript": "LAB_UIL\\STORE1\\Install-Store1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallSt1Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUILST1.testsettings",
+      "Tests": []
+    },
+    "POS2": {
+      "Host": "DTRAALABUILPOS2.rwn.com",
+      "InstallScript": "LAB_UIL\\POS2\\Install-POS2.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos2Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUILPOS2.testsettings",
+      "Tests": []
+    },
+    "POS1": {
+      "Host": "DTRAALABUILPOS1.rwn.com",
+      "InstallScript": "LAB_UIL\\POS1\\Install-POS1.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos1RegressionMultiPos.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUILPOS1.testsettings",
+      "Tests": [
+        {
+          "Category": "",
+          "Filename": "Ncr.UIAutomation.endofday.dll"
+        },
+        {
+          "Category": "",
+          "Filename": "Ncr.UIAutomation.cashoffice.dll"
+        }
+      ]
+    },
+    "Store2": {
+      "Host": "SRRAALABUILST2.rwn.com",
+      "InstallScript": "LAB_UIL\\STORE2\\Install-Store2.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallSt2Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "SRRAALABUILST2.testsettings",
+      "Tests": []
+    },
+    "POS3": {
+      "Host": "DTRAALABUILPOS3.rwn.com",
+      "InstallScript": "LAB_UIL\\POS3\\Install-POS3.ps1",
+      "OrderTestFileName": [
+        {
+          "Filename": "Regression\\InstallPos3Regression.orderedtest"
+        }
+      ],
+      "TestSettingsFileName": "DTRAALABUILPOS3.testsettings",
+      "Tests": []
+    }
+  }
+}
+
+
